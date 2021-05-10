@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head th:replace="common/header :: common-header"/>
+<body roleId="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<head th:replace="common/header :: navbar"/>
+<div class="container">
+    
+<center>
+<h3>Cheque Booking</h3><br>
+<form action="/cheques">
+<img src="https://www.pngjoy.com/pngm/410/7518952_cheque-white-cheque-icon-png-png-download.png" alt="cheque"/><br>
+<br>
+<a class="btn btn-primary" id="submitAppointment">Request</a>
+</form>
+</center>
+<div th:replace="common/header :: body-bottom-scripts"/>
+
+</body>
+</html>
